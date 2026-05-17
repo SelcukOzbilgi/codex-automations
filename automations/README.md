@@ -1,3 +1,5 @@
+![automations](automations-banner.png)
+
 # Automations
 
 This folder contains all available Codex automations. Each automation lives in its own folder and comes with everything you need to get started.
