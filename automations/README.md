@@ -21,7 +21,7 @@ Browse the list below, click into any folder, and read its README.md. Every auto
 
 | Name | Description | Difficulty | Status |
 |------|-------------|------------|--------|
-| Coming soon... | | | |
+| [email-digest](./email-digest/) | Scan Gmail for emails from any source, label them, and receive a clean daily digest in your inbox | Intermediate | Stable |
 
 ---
 
@@ -61,10 +61,12 @@ The automation runs on its own from here. Check back if anything changes in your
 Every automation follows this structure:
 
     automation-name/
-    ├── README.md          ← Start here. What it does, how to install, how to use.
-    ├── manifest.json      ← Machine-readable metadata (name, version, requirements)
-    ├── instructions.md    ← The actual Codex prompt/config to copy into your setup
-    └── install.sh         ← Optional. Run this to automate the setup process.
+    ├── README.md           ← Start here. What it does, how to install, how to use.
+    ├── manifest.json       ← Machine-readable metadata (name, version, requirements)
+    └── instructions/
+        ├── README.md       ← Start here. Install skill first, then automation.
+        ├── skill.md        ← How to install the skill into Codex
+        └── automation.md   ← How to set up the automation that runs the skill
 
 ---
 
