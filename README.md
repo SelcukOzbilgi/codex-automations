@@ -1,3 +1,4 @@
+
 ![codex-automations](banner.png)
 
 # codex-automations
@@ -6,13 +7,13 @@ Ready-to-use Codex automations for your everyday tasks. Open-source, community-f
 
 ## What is this?
 
-A collection of automations you can plug directly into OpenAI Codex. Each automation is self-contained pick the one you need, follow the install steps, and you're good to go.
+A collection of automations you can plug directly into OpenAI Codex. Each automation is self-contained — pick the one you need, follow the install steps, and you're good to go.
 
 ## Automations
 
 | Name | Description | Difficulty |
 |------|-------------|------------|
-| Coming soon... | | |
+| [email-digest](./automations/email-digest/) | Scan Gmail for emails from any source, label them, and receive a clean daily digest in your inbox | Intermediate |
 
 ## How to use
 
